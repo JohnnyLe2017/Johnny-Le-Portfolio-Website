@@ -17,7 +17,13 @@ body {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
+<<<<<<< HEAD
 .slides-navigation {}
+=======
+.slides-navigation {
+
+}
+>>>>>>> d26dbddae496b17f8e089d6fd561d26f8f777f2c
 
 .slides-navigation .prev,
 .slides-navigation .next {
@@ -28,8 +34,13 @@ body {
 }
 
 .slides-navigation a.prev {
+<<<<<<< HEAD
     left: 20px;
     background-image: url(../img/icons/prev.png);
+=======
+  left: 20px;
+  background-image: url(../img/icons/prev.png);
+>>>>>>> d26dbddae496b17f8e089d6fd561d26f8f777f2c
 }
 
 .slides-navigation a.next {
@@ -70,9 +81,16 @@ body {
     max-width: 100%;
 }
 
+<<<<<<< HEAD
 .skillsSection {
     background-color: #0abde3;
     color: #fff;
+=======
+.skillsSection,
+.contactSection {
+  background-color: #0abde3;
+  color: #fff;
+>>>>>>> d26dbddae496b17f8e089d6fd561d26f8f777f2c
 }
 
 .skill {
@@ -149,6 +167,7 @@ body {
 }
 
 .squareIcon {
+<<<<<<< HEAD
     position: absolute;
     left: 50%;
     top: -30px;
@@ -158,3 +177,68 @@ body {
     margin-left: -50px;
     color: #444;
 }
+=======
+  position: absolute;
+  left: 50%;
+  top: -30px;
+  width: 40%;
+  height: 60px;
+  font-size: 45px;
+  margin-left: -50px;
+  color: #444;
+}
+
+.contactButton {
+  color: #fff;
+  padding: 15px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  border: 1px solid #fff;
+  border-radius: 2px;
+}
+
+.contactButton:hover {
+  text-decoration: none;
+  color: #0abde3;
+  background-color: #fff;
+}
+
+.copyrightSection {
+  background-color: #000;
+  color: #fff;
+  padding: 30px 5px;
+}
+
+.copyrightSection p {
+  margin: 0;
+}
+
+#navigation {
+  background-color: #0abde3;
+  padding: 20px 10px;
+  z-index: 100;
+  width: 100%;
+}
+
+#navigation li {
+  padding: 0 10px;
+}
+
+#navigation li a {
+  color: #fff;
+}
+
+.navbar-brand {
+  color: #fff;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.fixedNav #navigation {
+  position: fixed;
+  top: 0;
+}
+>>>>>>> d26dbddae496b17f8e089d6fd561d26f8f777f2c
